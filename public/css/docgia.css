@@ -1,0 +1,22 @@
+/* Bóng đổ mềm cho card */
+.card {
+    border-radius: 12px;
+}
+
+/* Bảng */
+table thead tr th {
+    font-weight: bold !important;
+    font-size: 15px;
+}
+
+/* Hàng đậm khi hover */
+table tbody tr:hover {
+    background: #eef5ff !important;
+    cursor: pointer;
+}
+
+/* Nút hành động */
+.btn-action {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
