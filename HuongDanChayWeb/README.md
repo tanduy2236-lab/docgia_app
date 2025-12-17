@@ -15,7 +15,7 @@
 
 ## Hướng dẫn chạy
 1. Clone project về
-2. Import database
+2. Import database : Muontrasach
 3. Chạy bằng Mysql
 4. Chạy các lênh dưới đây trên terminal của visual studio code theo thứ tự:
 - composer install
