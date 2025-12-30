@@ -34,13 +34,26 @@ function deletePM(id) {
         url: `/api/phieumuon/${id}`,
         type: "DELETE",
         success: function () {
-            alert("Đã xóa phiếu mượn!");
-            window.location.href = "/phieumuon";
+            Swal.fire({
+                icon: 'success',
+                title: 'Đã xóa!',
+                text: 'Phiếu mượn đã được xóa',
+                timer: 1500,
+                showConfirmButton: false
+            }).then(() => {
+                window.location.href = "/phieumuon";
+            });
         },
         error: function (err) {
-            alert("Lỗi: " + JSON.stringify(err.responseJSON));
+            Swal.fire({
+                icon: 'error',
+                title: 'Lỗi!',
+                text: err.responseJSON?.message || 'Xóa thất bại'
+            });
         }
     });
 }
+
+
 
 
