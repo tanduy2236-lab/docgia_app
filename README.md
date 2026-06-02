@@ -2,17 +2,17 @@
 
 Ứng dụng quản lý độc giả, hỗ trợ lưu trữ và quản lý thông tin người mượn sách.
 
-## 🚀 Chức năng chính
+## Chức năng chính
 - Thêm độc giả
 - Cập nhật thông tin độc giả
 - Xóa độc giả
 - Quản lý dữ liệu bằng MySQL
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 - PHP (Laravel)
 - MySQL
 
-## ⚙️ Hướng dẫn cài đặt và chạy
+## Hướng dẫn cài đặt và chạy
 1. Clone project về máy:
    ```bash
    git clone <link-repo>
