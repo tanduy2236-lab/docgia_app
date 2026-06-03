@@ -1,19 +1,43 @@
 # Dự án docgia_app
 
-Ứng dụng quản lý độc giả viết bằng PHP.
+Ứng dụng quản lý độc giả, hỗ trợ lưu trữ và quản lý thông tin người mượn sách.
 
 ## Chức năng chính
 - Thêm độc giả
-- Sửa thông tin
+- Cập nhật thông tin độc giả
 - Xóa độc giả
-- Kết nối CSDL MySQL
+- Quản lý dữ liệu bằng MySQL
 
 ## Công nghệ sử dụng
-- PHP
+- PHP (Laravel)
 - MySQL
 
+## Hướng dẫn cài đặt và chạy
+1. Clone project về máy:
+   ```bash
+   git clone <link-repo>
 
-## Hướng dẫn chạy
-1. Clone project về
-2. Import database
-3. Chạy bằng Mysql
+Cài đặt dependencies:
+
+composer install
+
+Tạo file môi trường:
+
+cp .env.example .env
+Cấu hình database trong file .env
+
+Generate key:
+
+php artisan key:generate
+Import database:
+Sử dụng file: Dump20251210.sql trong thư mục database
+
+Chạy migrate (nếu có):
+
+php artisan migrate
+
+Chạy ứng dụng:
+
+php artisan serve
+ Ghi chú
+Dự án được thực hiện nhằm mục đích học tập và thực hành phát triển ứng dụng web.

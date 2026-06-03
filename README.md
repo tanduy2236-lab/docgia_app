@@ -39,5 +39,18 @@ php artisan migrate
 Chạy ứng dụng:
 
 php artisan serve
-📌 Ghi chú
+ Ghi chú
 Dự án được thực hiện nhằm mục đích học tập và thực hành phát triển ứng dụng web.
+
+## Hình ảnh
+### Danh sách sách
+![Danh sách sách](screenshots/home.png)
+
+### Thêm sách
+![Thêm sách](screenshots/add_book.png)
+
+### Quản lý phiếu mượn
+![Phiếu mượn](screenshots/borrow_ticket.png)
+
+### Thống kê
+![Thống kê](screenshots/statistics.png)
